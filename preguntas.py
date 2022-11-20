@@ -34,7 +34,7 @@ def pregunta_01():
     # Cree un un clasificador k-NN con 6 vecinos
     knn = KNeighborsClassifier(n_neighbors=6)
 
-    # Entrene el clasificador con el conjunto de entrenamiento
+    # Entrene el clasificador con el conjunto de entrenamiento.
     knn.fit(X, y)
 
     # Retorne el score del clasificador
